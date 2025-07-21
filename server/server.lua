@@ -428,7 +428,6 @@ AddEventHandler("huzo:GetEmployeeList", function()
         if result and #result ~= 0 then
             local OnlinePlayers = GetPlayers()
             for i, _ in ipairs(result) do
-                print(result[i].firstname .. " " .. result[i].lastname)
                 local ID = result[i].identifier
                 if string.find(ID, 'char:') ~= nil then
                     ID = string.sub(ID, 6)
