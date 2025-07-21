@@ -69,7 +69,7 @@ Only dependencies are [`ox_lib`](https://github.com/overextended/ox_lib) and [`e
 ---
 
 ## Screenshots
-![Main Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/MainMenu.png?raw=true)
+![Main Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/MainMenuu.png?raw=true)
 ![Shop Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/ShopMenu.png?raw=true)
 ![Locker Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/LockerMenu.png?raw=true)
 ![Boss Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/BossMenu.png?raw=true)
