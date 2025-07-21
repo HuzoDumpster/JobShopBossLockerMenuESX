@@ -1,7 +1,7 @@
 ServerConfig = {}
 
 -- basic shit
-ServerConfig.UserDiscordLogs = true
+ServerConfig.UserDiscordLogs = false
 ServerConfig.DiscordWebhook  = ""
 ServerConfig.Title           = "Locker Grabs"
 ServerConfig.Username        = "HUZO Lockers Script"
