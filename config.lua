@@ -55,7 +55,7 @@ end
 
 
 -- Basic Locales
-Locales.MainMenuTitle = "Stash & Shop & Boss Menu"
+Locales.MainMenuTitle = "Locker & Shop & Boss Menu"
 Locales.BossMenuTitle = "Boss Options"
 Locales.ShopMenuTitle = "Shop Menu"
 Locales.WeaponLockerTitle = "Locker Menu"
@@ -65,8 +65,8 @@ Locales.UserDeposited = 'The user deposited %s dirty money to the job\'s shop ac
 Locales.TookWeapon = 'You took %s from the locker!'
 Locales.Bought = 'Bought %sx %s'
 Locales.CantAffordOne = 'Your society does not have enough money to even buy one piece of this gun!'
-Locales.FreezeFundsON = 'Freeze funds: TURNED On'
-Locales.FreezeFundsOFF = 'Freeze funds: Turned Off'
+Locales.FreezeFundsON = 'Freeze funds: TURNED ON'
+Locales.FreezeFundsOFF = 'Freeze funds: TURNED OFF'
 Locales.FreezeFundsDescription = 'Freeze the funds of the society, meaning they cannot be used, but members can still add to it.'
 Locales.HireNew = 'Hire new employees'
 Locales.HireNewDescription = 'Hire people to the organization. They shall be standing close to you.'
@@ -74,10 +74,10 @@ Locales.MonitorCenter = 'Monitor Center'
 Locales.MonitorCenterDescription = 'Here you can review recent events captured by the CCTV system.'
 Locales.ManageEmployees = 'Manage Employees'
 Locales.ManageEmployeesDescription = 'Here you can kick / remove / (promote/demote) employees.'
-Locales.InitialShopTitle = "Buy items and guns"
+Locales.InitialShopTitle = "Buy Weapons"
 Locales.MainWeaponLockerTitle = "Locker"
-Locales.InitialShopDescription = "Buy items to the job's locker. Uses society's money."
-Locales.MainWeaponLockerDescription = "Pick items and weapons from the locker. Actions are recorded by the CCTV."
+Locales.InitialShopDescription = "Buy weapons to the job's locker. Uses society's money."
+Locales.MainWeaponLockerDescription = "Pick weapons from the locker. Actions MAY be recorded by the CCTV."
 Locales.MainShopTitle = "Shop"
 Locales.DepositDirtyMoney = "Deposit Dirty Money"
 Locales.DepositCleanMoney = "Deposit Money"
@@ -95,10 +95,10 @@ Locales.CantBuyCuzFrozenTitle = "No guns available!"
 Locales.CantBuyCuzFrozen = "Sorry, but we can't fulfill orders at the moment. Your job's account money is frozen by the boss. You may still deposit though!"
 Locales.InvalidMoneyType = "Not sure what '%s' is, but tell your dev to actually add a valid money type name."
 
-Locales.MonitorTakeGun     = '[%s] Employee %s took %s from the locker.'
-Locales.MonitorFundFreeze  = '[%s] Boss (%s) enabled fund freezing.'
-Locales.MonitorFundFreeze2 = '[%s] Boss (%s) disabled fund freeze.'
-Locales.MonitorDeposited   = '[%s] Employee %s deposited %s€.'
+Locales.MonitorTakeGun     = '\n\n[%s] Employee %s took %s from the locker.'
+Locales.MonitorFundFreeze  = '\n\n[%s] Boss (%s) enabled fund freezing.'
+Locales.MonitorFundFreeze2 = '\n\n[%s] Boss (%s) disabled fund freeze.'
+Locales.MonitorDeposited   = '\n\n[%s] Employee %s deposited %s€.'
 
 
 -- Player Manager Locales
@@ -130,13 +130,13 @@ Locales.NoManagerPermissions = 'You don\'t have permission to view or manage the
 
 Locales.PromotionInputTitle = 'Promotion Grade:'
 Locales.PromotionMenuTitle = 'Promote Employee'
-Locales.Promotion = 'Employee %s promoted up to %s' -- %s = employee's character name
+Locales.Promotion = 'Employee %s promoted up to %s' -- 1st %s = employee's character name, 2nd %s = job label
 Locales.AlreadyHighestGrade = 'You can\'t promote this employee, he already is the highest grade possible!'
 Locales.SelectPromoteGrade = 'Press [ENTER] to select the grade you want to promote the employee to!'
 
 Locales.DemotionInputTitle = 'Demotion Grade:'
 Locales.DemotionMenuTitle = 'Demote Employee'
-Locales.Demotion = 'Employee %s demoted down to %s' -- %s = employee's character name
+Locales.Demotion = 'Employee %s demoted down to %s' -- 1st %s = employee's character name, 2nd %s = job label
 Locales.AlreadyLowestGrade = 'You can\'t demote this employee, he already is the lowest grade possible!'
 Locales.SelectDemoteGrade = 'Press [ENTER] to select the grade you want to demote the employee to!'
 
