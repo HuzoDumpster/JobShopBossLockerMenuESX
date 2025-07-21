@@ -1,7 +1,6 @@
 Config = {}
 Locales = {}
 
---Now, I am not sure if anyone actually uses uniq jobs for creating gangs, BUT i do, so I just added a flag "IsGangMenu = true", so I can separate dirty- and normal money
 Config.IsGangMenu                 = true -- this is just to choose if the term/value "dirty money" shall be used, rather than just "society money."
 Config.Currency                   = "€" -- obvious
 Config.DefaultAmmo                = 200 -- how much should a gun have ammo when givem
