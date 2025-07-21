@@ -66,3 +66,11 @@ Only dependencies are [`ox_lib`](https://github.com/overextended/ox_lib) and [`e
 - Getting this perfectly working **FOR YOUR SERVER**, might be challenging without any knowledge.
 
 ---
+
+## Screenshots
+![Main Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/MainMenu.png?raw=true)
+![Shop Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/ShopMenu.png?raw=true)
+![Locker Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/LockerMenu.png?raw=true)
+![Boss Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/BossMenu.png?raw=true)
+![Manager Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/ManageEmployee.png?raw=true)
+![History Menu Image.](https://github.com/HuzoDumpster/JobShopBossLockerMenuESX/blob/main/Screenshots/ActionsHistory.png?raw=true)
