@@ -281,11 +281,10 @@ function BossMenuOptions()
             description = Locales.MonitorCenterDescription,
             onSelect = function()
                 if #HistoryCache ~= 0 then
-                    local FreezeLocale = historyItem.FreezeType == 1 and Locales.MonitorFundFreeze or Locales.MonitorFundFreeze2
                     for _, historyItem in ipairs(HistoryCache) do
                         alertData = alertData .. "\n" .. (
                             ( historyItem.Action == 1 and (Locales.MonitorTakeGun):format(historyItem.Time, historyItem.Name, historyItem.TakenGun) ) or
-                            ( historyItem.Action == 2 and (FreezeLocale):format(historyItem.Time, historyItem.Name) ) or
+                            ( historyItem.Action == 2 and (historyItem.FreezeType == 1 and Locales.MonitorFundFreeze or Locales.MonitorFundFreeze2):format(historyItem.Time, historyItem.Name) ) or
                             ( historyItem.Action == 3 and (Locales.MonitorDeposited):format(historyItem.Time, historyItem.Name, historyItem.Deposited) )
                         )
                     end
