@@ -64,6 +64,7 @@ Only dependencies are [`ox_lib`](https://github.com/overextended/ox_lib) and [`e
 - If you encounter **breaking issues**, feel free to create an issue and I'll try to fix them.
 - Modification is allowed and encouraged.
 - Getting this perfectly working **FOR YOUR SERVER**, might be challenging without any knowledge.
+- For testing I made the menu open when "H" is pressed, and the player HAS a job. You need to modify when/how it opens, according to your own needs. It's on [`client/client.lua:34`](./client/client.lua#L34)
 
 ---
 
